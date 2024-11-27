@@ -1,0 +1,12 @@
+﻿mespace ConsoleApp2
+{
+    internal class Program
+    {
+        static void Main(string[] args)
+        {
+            string inputString = "Hello!";
+            string result = inputString.Remove(inputString.Length - 1);  
+            Console.WriteLine(result);
+        }
+    }
+}

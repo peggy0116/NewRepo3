@@ -1,0 +1,12 @@
+﻿namespace ConsoleApp2
+{
+    internal class Program
+    {
+        static void Main(string[] args)
+        {
+            string phoneNumber = "1234567890";
+            phoneNumber = phoneNumber.Insert(3, "-").Insert(7, "-");
+            Console.WriteLine(phoneNumber);
+        }
+    }
+}

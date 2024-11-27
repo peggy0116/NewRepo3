@@ -1,0 +1,18 @@
+﻿namespace ConsoleApp2
+{
+    internal class Program
+    {
+        static void Main(string[] args)
+        {
+            string url = "https://example.com";
+            if (url.IndexOf("https://") == 0)
+            {
+                Console.WriteLine("URL 使用 HTTPS 安全協定");
+            }
+            else
+            {
+                Console.WriteLine("URL 未使用 HTTPS 安全協定");
+            }
+        }
+    }
+}
