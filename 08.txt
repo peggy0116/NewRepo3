@@ -1,0 +1,13 @@
+﻿namespace ConsoleApp2
+{
+    class Program
+    {
+        static void Main()
+        {
+            string file1 = "document.txt";
+            string file2 = "document.txt";
+            bool areEqual = file1.Equals(file2);
+            Console.WriteLine(areEqual);
+        }
+    }
+}

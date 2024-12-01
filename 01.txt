@@ -1,0 +1,21 @@
+﻿namespace ConsoleApp2
+{
+    internal class Program
+    {
+        static void Main(string[] args)
+        {
+            {
+                int[] numbers = { 15, 20, 5, 30, 25 };
+                int threshold = 18;
+                foreach (int num in numbers)
+                {
+                    int result = num.CompareTo(threshold);
+                    if (result > 0)
+                    {
+                        Console.WriteLine(num + " 大於 " + threshold);
+                    }
+                }
+            }
+        }
+    }
+}

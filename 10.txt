@@ -4,8 +4,9 @@
     {
         static void Main(string[] args)
         {
-            string id = "87654";
-            string formattedId = id.PadLeft(9, '0');
+             string id = "87654";
+             string formattedId = id.PadLeft(9, '0');
+             Console.WriteLine(formattedId);
         }
     }
 }

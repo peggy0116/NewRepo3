@@ -1,0 +1,18 @@
+﻿namespace ConsoleApp2
+{
+    public class Event : IComparable<Event>
+    {
+        public DateTime StartDate { get; set; }
+        public Event(DateTime startDate) => StartDate = startDate;
+        public int CompareTo(Event other) => StartDate.CompareTo(other.StartDate);
+    }
+    class Program
+    {
+        static void Main()
+        {
+            List<Event> events = new List<Event> { new Event(new DateTime(2024, 12, 5)), new Event(new DateTime(2024, 11, 20)) };
+            events.Sort();
+            events.ForEach(e => Console.WriteLine(e.StartDate.ToString("yyyy-MM-dd")));
+        }
+    }
+}

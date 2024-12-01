@@ -1,0 +1,12 @@
+﻿namespace ConsoleApp2
+{
+    class Program
+    {
+        static void Main()
+        {
+            string name = "Alice";
+            string message = string.Concat("歡迎來到系統，", name, "！");
+            Console.WriteLine(message);
+        }
+    }
+}

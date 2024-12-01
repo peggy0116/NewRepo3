@@ -1,0 +1,12 @@
+﻿namespace ConsoleApp2
+{
+    class Program
+    {
+        static void Main()
+        {
+            string input = "ID:12345, Name:John Doe"; 
+            string id = input.Substring(3, 5); 
+            Console.WriteLine(id);
+        }
+    }
+}

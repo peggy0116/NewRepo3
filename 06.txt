@@ -1,0 +1,12 @@
+﻿namespace ConsoleApp2
+{
+    class Program
+    {
+        static void Main()
+        {
+            string fileName = "document.txt";
+            bool isTxtFile = fileName.EndsWith(".txt");
+            Console.WriteLine(isTxtFile);
+        }
+    }
+}

@@ -1,0 +1,12 @@
+﻿namespace ConsoleApp2
+{
+    class Program
+    {
+        static void Main()
+        {
+            string userInput = "   Hello, World!";  
+            string cleanInput = userInput.TrimStart();  
+            Console.WriteLine(cleanInput);  
+        }
+    }
+}

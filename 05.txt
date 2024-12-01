@@ -1,0 +1,8 @@
+﻿namespace ConsoleApp2
+{
+    class Program
+    {
+        static void Main()
+            => Console.WriteLine("https://example.com".StartsWith("https") ? "安全網址" : "不安全網址");
+    }
+}

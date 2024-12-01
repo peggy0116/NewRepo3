@@ -1,0 +1,13 @@
+﻿namespace ConsoleApp2
+{
+    class Program
+    {
+        static void Main()
+        {
+            int[] sourceArray = { 1, 2, 3, 4, 5 };  
+            int[] destinationArray = new int[3];    
+            Array.Copy(sourceArray, 1, destinationArray, 0, 3);  
+            Console.WriteLine(string.Join(", ", destinationArray));  
+        }
+    }
+}

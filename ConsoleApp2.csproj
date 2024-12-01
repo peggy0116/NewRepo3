@@ -50,7 +50,7 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="09.txt" />
+    <Content Include="09-1.txt" />
     <Content Include="10.txt" />
     <Content Include="11.txt" />
     <Content Include="12.txt" />
@@ -58,6 +58,21 @@
     <Content Include="14.txt" />
     <Content Include="15.txt" />
     <Content Include="16.txt" />
+    <Content Include="01.txt" />
+    <Content Include="02.txt" />
+    <Content Include="03-1.txt" />
+    <Content Include="04.txt" />
+    <Content Include="05.txt" />
+    <Content Include="06.txt" />
+    <Content Include="07.txt" />
+    <Content Include="08.txt" />
+    <Content Include="17.txt" />
+    <Content Include="18.txt" />
+    <Content Include="19-1.txt" />
+    <Content Include="20.txt" />
+    <Content Include="03-2.txt" />
+    <Content Include="19-2.txt" />
+    <Content Include="19-3.txt" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

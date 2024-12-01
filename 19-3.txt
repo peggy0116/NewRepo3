@@ -1,0 +1,12 @@
+﻿namespace ConsoleApp2
+{
+    class Program
+    {
+        static void Main()
+        {
+            string dataFromFile = "Hello, World!   ";  
+            string cleanData = dataFromFile.TrimEnd();  
+            Console.WriteLine(cleanData);  
+        }
+    }
+}

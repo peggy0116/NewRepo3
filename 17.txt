@@ -1,0 +1,12 @@
+﻿namespace ConsoleApp2
+{
+    class Program
+    {
+        static void Main()
+        {
+            string input = "Hello, World! 123"; 
+            string output = input.Replace("World", "Universe"); 
+            Console.WriteLine(output); 
+        }
+    }
+}

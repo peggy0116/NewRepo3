@@ -6,7 +6,6 @@
         {
             string sentence = "This is a test sentence.";
             string[] words = sentence.Split(' ');
-
             foreach (var word in words)
             {
                 Console.WriteLine(word);
